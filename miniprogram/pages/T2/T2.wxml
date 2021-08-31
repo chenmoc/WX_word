@@ -1,0 +1,22 @@
+<view class="cu-timeline">
+<view class="count">第二部分剩余时间：{{wxTimerSecond}}</view>
+<form bindsubmit="sub">
+<view class="weui-form ">
+		<view class="weui-form__text-area" >
+      <h2 class="weui-form__title ">{{source}}  </h2>
+      <h2>{{sourceDes}}</h2>
+    </view>
+</view>
+<view class="page-section ">
+    <view class=" des">{{destinationDes}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input name='userAns'   class="weui-input inputClass"  maxlength="20" value="{{empty}}"   placeholder="在此输入答案"/>
+      </view>
+    </view>
+  </view>
+  <view class="weui-form__opr-area sure over">
+			<button form-type="submit" class="weui-btn weui-btn_primary">确定</button>
+    </view>
+</form>
+</view>

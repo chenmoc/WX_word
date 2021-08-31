@@ -1,0 +1,30 @@
+<!--miniprogram/pages/final/final.wxml-->
+<view class="cu-timeline over">
+<view class="page">
+    <mp-msg type="success" title="已完成全部题目">
+    </mp-msg>
+</view>
+<view class="cu-bar bg-white solid-bottom ">
+    <view class="action">
+      <text class="cuIcon-title text-orange "></text> 您的第一部分错题集
+    </view>
+  </view>
+  <view class="text-center padding bg-white">{{correctA}}</view>
+  <view class="cu-bar bg-white solid-bottom ">
+    <view class="action">
+      <text class="cuIcon-title text-blue "></text> 您的第二部分错题集
+    </view>
+  </view>
+  <view class="text-center padding bg-white">{{correctB}}</view>
+  <view class="cu-bar bg-white solid-bottom ">
+    <view class="action">
+      <text class="cuIcon-title text-red "></text> 您的第三部分错题集
+    </view>
+  </view>
+  <view class="text-center padding bg-white">{{correctC}}</view>
+<view class="bg-white">
+<button class="weui-btn weui-btn_primary ">
+  <navigator class= 'back' open-type="exit" target="miniProgram">点击关闭小程序</navigator>
+</button>
+</view>
+</view>

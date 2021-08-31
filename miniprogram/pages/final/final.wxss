@@ -1,0 +1,17 @@
+/* miniprogram/pages/final/final.wxss */
+.final{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:50%;
+}
+
+.back{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.over{
+  height: 800px;
+}

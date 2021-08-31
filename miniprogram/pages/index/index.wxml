@@ -1,0 +1,33 @@
+<view class="container cu-timeline">
+  <view class="page-section">
+    <view class=" des">账号：</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input inputClass"  maxlength="30"  bindinput="inputName" placeholder="在此输入账号"/>
+      </view>
+    </view>
+  </view>
+  <view class="page-section i2">
+    <view class=" des">密码：</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input inputClass" password type='text' maxlength="30"  bindinput="inputNum" placeholder="在此输入密码"/>
+      </view>
+    </view>
+  </view>
+  <view>
+    <button bindtap="leap" class="weui-btn weui-btn_primary ad">开始答题</button>
+  </view>
+  <view class="cu-timeline backup">
+  <view class="cu-time">注意事项</view>
+  <view class="cu-item text-red cuIcon-lightfill">
+    <view class="bg-gradual-orange padding radius text-center shadow-blur content">
+      我们不会以任何方式主动向任何个人或组织共享、转让你的账户和密码
+    </view>
+    <view class="bg-gradual-orange padding radius text-center shadow-blur content">
+      账号和密码为学校内单词比赛用户名和密码
+    </view>
+  </view>
+</view>
+</view>
+

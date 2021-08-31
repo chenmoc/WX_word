@@ -1,0 +1,21 @@
+<view class="cu-timeline">
+<view class="count">第三部分剩余时间：{{wxTimerSecond}}</view>
+<view class="weui-form ">
+		<view class="weui-form__text-area" >
+      <h2 class="weui-form__title ">{{tips}} </h2>
+    </view>
+</view>
+<form bindsubmit='sub'>
+<view class="page-section second  c1">
+    <view class="c2">请输入所缺失的单词或短语（包括首字母）</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input inputClass" name="userAns"  maxlength="40" value="{{empty}}"  placeholder="在此输入答案"/>
+      </view>
+    </view>
+  </view>
+  <view class="weui-form__opr-area alright over">
+			<button form-type="submit" class="weui-btn weui-btn_primary">确定</button>
+		</view>
+ </form>
+</view>

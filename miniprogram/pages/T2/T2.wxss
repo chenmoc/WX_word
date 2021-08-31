@@ -1,0 +1,23 @@
+.count{
+  align-items: center;
+  margin-top:auto;
+  margin-left:100px;
+}
+
+.up{
+  margin-top: 70px;
+}
+
+.des{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left:20px;
+}
+
+.sure{
+  margin-top: 80px;
+}
+
+.over{
+  height: 400px;
+}
